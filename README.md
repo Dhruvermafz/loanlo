@@ -1,4 +1,4 @@
-# Loan Management Application
+# LoanLo Management Application
 
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://loanlo.vercel.app/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
