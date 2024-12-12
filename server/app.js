@@ -10,13 +10,14 @@ require("dotenv").config();
 require("./database/connection");
 
 const clientUrl = process.env.DEV_REACT_URL;
+const prodUrl = process.env.PROD_URL;
 const app = express();
 
 //Middleware
 app.use(cookieParser());
 app.use(
   cors({
-    origin: clientUrl,
+    origin: [clientUrl, prodUrl],
     credentials: true,
   })
 );
