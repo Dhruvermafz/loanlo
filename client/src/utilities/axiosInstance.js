@@ -1,7 +1,7 @@
 import axios from "axios";
 const url =
   process.env.NODE_ENV === "production"
-    ? "https://srinivas-loan-management.herokuapp.com"
+    ? "https://loanlo.onrender.com"
     : "http://localhost:8000";
 
 const axiosInstance = axios.create({
